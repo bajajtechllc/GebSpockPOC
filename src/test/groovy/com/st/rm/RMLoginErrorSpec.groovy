@@ -9,7 +9,6 @@ class RMLoginErrorSpec extends GebReportingSpec {
 	def "[#username] can not login to RM appication"(def username, def password) {
 		
 		when: println "I go to RM Login Page"
-	    //browser.go "http://qa02-rm.qat.skytouch.io/RMT"
 		to LoginPage
 	
 		and: println "Login as $username"
