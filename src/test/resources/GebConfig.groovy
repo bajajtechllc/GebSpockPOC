@@ -34,5 +34,5 @@ environments {
 }
 
 // To run the tests with all browsers just run ./gradlew test
-baseUrl = "http://testing.com/login"
+baseUrl = "http://qa02-rm.qat.skytouch.io/RMT"
 
